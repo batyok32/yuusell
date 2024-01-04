@@ -70,6 +70,7 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+    --main-color:#FF6A00;
   }
 }
 
@@ -79,20 +80,12 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #F2F6F9;
+ 
 }
 
 a {
@@ -103,5 +96,211 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.text-main {
+  color: #FF6A00 !important;
+}
+
+.text-lightgray {
+  color: rgba(0,26,52,.6)!important;
+}
+
+.btn-main {
+  background-color: #FF6A00;
+  color: #fff;
+}
+
+.btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.show {
+  background-color: #d45901 !important;
+  color: #fff !important;
+}
+
+.btn-white {
+  background-color: white;
+}
+
+.btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.show {
+  background-color: #E6E6E6;
+}
+
+.btn-custom {
+  transition: all 300ms ease-in-out;
+}
+.btn-custom:focus, .btn-custom:active {
+  transform: scale(0.95);
+}
+
+.btn-gray {
+  background-color: #E6E6E6;
+}
+
+.btn-gray:hover, .btn-gray:focus, .btn-gray:active {
+  background-color: #dbdada !important;
+}
+
+.btn-lightgray {
+  background-color: #E6E6E6;
+}
+
+.btn-lightgray:hover, .btn-gray:focus, .btn-gray:active {
+  background-color: #dbdada !important;
+}
+
+
+
+.bg-gray {
+  background-color: #E6E6E6;
+}
+
+.bg-slightgray {
+  background-color: #F2F6F9;
+}
+
+.bg-gray-50 {
+  background-color: #F5F7FA;
+}
+
+.bg-main {
+  background-color: #FF6A00;
+}
+
+
+.column-2 {
+  columns: 2;
+  column-gap: 10;
+  width: 100%;
+  margin: 0 auto,
+}
+.column-3 {
+  columns: 3;
+  column-gap: 10;
+  width: 100%;
+  margin: 0 auto,
+}
+.column-4 {
+  columns: 4;
+  column-gap: 10;
+  width: 100%;
+  margin: 0 auto,
+}
+.column-5 {
+  columns: 5;
+  column-gap: 10;
+  width: 100%;
+  margin: 0 auto,
+}
+.column-item {
+  width: 100%;
+  break-inside: avoid;
+}
+
+
+.truncate-overflow-1 {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.truncate-overflow-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.truncate-overflow-3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.text-yellow {
+  color: #FFA41C;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+
+.bg-main-50 {
+  background-color: rgba(255, 106, 0, 0.5);
+}
+
+
+
+.customradio:checked[type='radio'], .customcheckbox:checked[type='checkbox'] {
+  background-color: #FF6A00 !important;
+  border-color: #FF6A00;
+}
+
+.customradio:focus, .customcheckbox:focus {
+  box-shadow: 0 0 0 0.25rem rgb(255 106 0 /25%) !important;
+  border-color: transparent;
+}
+
+
+a.main-link {
+  color: #FF6A00;
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: all 100ms ease-in;
+}
+
+a.main-link:hover {
+  opacity: 1;
+}
+
+
+a.light-link:hover  {
+  color: #FF6A00;
+}
+
+a.light-link.active {
+  background-color: #F2F3F5;
+  color: black;
+  border: none;
+}
+
+
+input.bg-slightgray:focus {
+  background-color: #F2F6F9;
+}
+
+input.placeholder-gray::placeholder {
+  color: #6C757D !important;
+}
+
+
+.position-md-sticky {
+  position: static;
+}
+
+/* When the screen width is at least 768px (commonly used for medium devices) */
+@media (min-width: 768px) {
+  .position-md-sticky {
+      position: -webkit-sticky; /* For Safari */
+      position: sticky;
+      top: 0; /* Adjust this value as needed */
+  }
+  .bg-white-md {
+    background: #fff;
   }
 }
