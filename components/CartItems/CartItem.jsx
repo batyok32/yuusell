@@ -13,11 +13,7 @@ function CartItem() {
                 />
             </div>
             <div className="col-2">
-                <Image
-                    src="https://ir-3.ozone.ru/s3/multimedia-5/wc100/6583192421.jpg"
-                    alt=""
-                    className="img-fluid"
-                />
+                <img src="/6583192421.webp" alt="" className="img-fluid" />
             </div>
             <div className="col">
                 <div className="fw-medium">

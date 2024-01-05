@@ -53,7 +53,7 @@ function ProductDetailSliderV1() {
         >
             <SwiperSlide>
                 <div className="px-1">
-                    <Image
+                    <img
                         src="https://m.media-amazon.com/images/I/31Pi8SF6YGL._SS64_.jpg"
                         alt=""
                         className="border"
@@ -66,7 +66,7 @@ function ProductDetailSliderV1() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="px-1">
-                    <Image
+                    <img
                         src="https://m.media-amazon.com/images/I/31Pi8SF6YGL._SS64_.jpg"
                         alt=""
                         className="border"
@@ -79,7 +79,7 @@ function ProductDetailSliderV1() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="px-1">
-                    <Image
+                    <img
                         src="https://m.media-amazon.com/images/I/31Pi8SF6YGL._SS64_.jpg"
                         alt=""
                         className="border"
@@ -92,7 +92,7 @@ function ProductDetailSliderV1() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="px-1">
-                    <Image
+                    <img
                         src="https://m.media-amazon.com/images/I/31Pi8SF6YGL._SS64_.jpg"
                         alt=""
                         className="border"
@@ -105,7 +105,7 @@ function ProductDetailSliderV1() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="px-1">
-                    <Image
+                    <img
                         src="https://m.media-amazon.com/images/I/31Pi8SF6YGL._SS64_.jpg"
                         alt=""
                         className="border"
@@ -118,7 +118,7 @@ function ProductDetailSliderV1() {
             </SwiperSlide>
             <SwiperSlide>
                 <div className="px-1">
-                    <Image
+                    <img
                         src="https://m.media-amazon.com/images/I/31Pi8SF6YGL._SS64_.jpg"
                         alt=""
                         className="border"

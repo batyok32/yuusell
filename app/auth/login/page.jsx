@@ -10,8 +10,8 @@ function LoginPage() {
                 className="d-flex align-items-center justify-content-center"
             >
                 <div className="bg-white mt-3 p-3 shadow-sm rounded-1">
-                    <Image src="/logo2.jpg" alt="" height={40} />{" "}
-                    <Image
+                    <img src="/logo2.jpg" alt="" height={40} />{" "}
+                    <img
                         src="/logo3.jpg"
                         alt=""
                         height={30}

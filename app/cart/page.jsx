@@ -84,8 +84,10 @@ function Cart() {
                 </div>
             </div>
 
-            <div className="bg-white mt-4 p-sm-3 p-1 rounded-1">
-                <div className="fw-bold  ">Similar items</div>
+            <div className="bg-white mt-4 p-sm-3 p-1 px-3 rounded-1">
+                <div className="fw-bold mt-3 ms-3 fs-5 mb-0 ">
+                    Similar items
+                </div>
                 <RecommendedProductSlider />
             </div>
         </div>

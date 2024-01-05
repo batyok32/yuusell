@@ -13,11 +13,7 @@ function MobileCartItem() {
                 />
             </div>
             <div className="col-5 pe-0">
-                <Image
-                    src="https://ir-3.ozone.ru/s3/multimedia-5/wc100/6583192421.jpg"
-                    alt=""
-                    className="img-fluid"
-                />
+                <img src="/6583192421.webp" alt="" className="img-fluid" />
             </div>
             <div className="col-5 ps-0 pe-0">
                 <div className="fw-medium fs-14 truncate-overflow-2">
@@ -35,7 +31,7 @@ function MobileCartItem() {
                     <div>
                         <input
                             type="text"
-                            className="text-center fs-14 border py-1"
+                            className="text-center fs-14 border py-1 bg-white text-black"
                             style={{ maxWidth: "40px" }}
                             defaultValue={1}
                         />

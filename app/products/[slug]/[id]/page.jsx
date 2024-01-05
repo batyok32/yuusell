@@ -90,8 +90,8 @@ function ProductDetail({ params }) {
                     <div className="row   mt-md-3 align-items-start position-relative">
                         <div className="col-md-4 position-md-sticky top-0 px-2 px-md-0">
                             <div className="bg-white pt-3 px-2 p-md-3 rounded-1">
-                                <Image
-                                    src="https://ir-3.ozone.ru/s3/multimedia-z/wc1000/6829843931.jpg"
+                                <img
+                                    src="/6829843931.webp"
                                     alt=""
                                     className="img-fluid"
                                 />

@@ -12,6 +12,7 @@ import ProductCardV1 from "../ProductCardV1/ProductCardV1";
 
 const productOptions = {
     slidesPerView: 6,
+    navigation: true,
 
     breakpoints: {
         0: {
@@ -19,6 +20,7 @@ const productOptions = {
         },
         320: {
             slidesPerView: 2,
+            spaceBetween: 5,
         },
 
         640: {
@@ -36,7 +38,6 @@ const productOptions = {
 function RecommendedProductSlider() {
     return (
         <Swiper
-            navigation
             pagination={{ clickable: true }}
             modules={[Autoplay, Pagination, Navigation]}
             // spaceBetween={50}

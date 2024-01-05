@@ -12,7 +12,7 @@ function Checkout() {
                         href="/"
                         className="d-flex align-items-center justify-content-center"
                     >
-                        <Image src="/logo2.jpg" alt="" height={40} />{" "}
+                        <img src="/logo2.jpg" alt="" height={40} />{" "}
                         {/* <img
                             src="/logo3.jpg"
                             alt=""

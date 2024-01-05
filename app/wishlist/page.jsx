@@ -6,8 +6,8 @@ function Wishlist() {
     return (
         <div className="container-xxl mb-5 pb-4">
             <div className="row mx-0 mt-3">
-                <div className="order-1 pe-md-2 order-md-0  col-12 mb-2 col-lg-2 px-0">
-                    <div className="bg-white p-2 fs-14 rounded-1">
+                <div className="order-1 pe-md-2 order-md-0  col-12 mb-2 col-lg-2 px-0 ">
+                    <div className="bg-white p-2 fs-14 rounded-1 ps-3">
                         <div className="mb-4 mt-2">
                             <Link
                                 href="/"

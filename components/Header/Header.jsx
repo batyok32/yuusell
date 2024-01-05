@@ -227,12 +227,17 @@ function Header() {
 
             <div className="d-flex order-0 order-sm-1 order-sm-1 py-2 align-items-center">
                 <Link href="/" className="d-none d-sm-flex align-items-center">
-                    <Image src="/logo2.jpg" alt="" height={40} />{" "}
-                    <Image
+                    <img
+                        src="/logo2.jpg"
+                        alt=""
+                        style={{ height: 40 }}
+                        // fill={true}
+                        // className="w-auto"
+                    />{" "}
+                    <img
                         src="/logo3.jpg"
                         alt=""
-                        height={30}
-                        style={{ marginLeft: "-8px" }}
+                        style={{ marginLeft: "-8px", height: 30 }}
                     />{" "}
                 </Link>
                 {/* <MegaMenu> */}
@@ -309,7 +314,6 @@ function Header() {
                                     title="Goods for pets"
                                     img="https://ir.ozone.ru/s3/cms/c7/tf4/wc400/zoo.png"
                                 />
-                                <MenuCategoryItem title="Automotive products" />
                                 <MenuCategoryItem
                                     title="Childen's goods"
                                     img="https://ir.ozone.ru/s3/cms/1b/t09/wc400/baby_clothes_2.png"

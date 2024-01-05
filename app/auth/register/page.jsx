@@ -9,8 +9,8 @@ function RegisterPage() {
                 className="d-flex align-items-center justify-content-center"
             >
                 <div className="bg-white mt-3 p-3 shadow-sm rounded-1">
-                    <Image src="/logo2.jpg" height={40} />
-                    <Image
+                    <img src="/logo2.jpg" height={40} />
+                    <img
                         src="/logo3.jpg"
                         height={30}
                         style={{ marginLeft: "-8px" }}
@@ -23,7 +23,7 @@ function RegisterPage() {
                     <div className="fw-bold text-center fs-5">Register</div>
                     <div className="text-center fs-14 mt-1 ">
                         Open new Yuusell account or
-                        <Link href="/auth/login" className="main-link">
+                        <Link href="/auth/login" className="main-link ms-1">
                             log in
                         </Link>
                     </div>

@@ -29,56 +29,32 @@ function ProductDetailSliderV2() {
         >
             <SwiperSlide>
                 <div>
-                    <Image
-                        className="img-fluid"
-                        src="https://i.ebayimg.com/images/g/TRMAAOSwfEBkBnhl/s-l140.jpg"
-                        alt=""
-                    />
+                    <img className="img-fluid" src="/s-l140.jpg" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div>
-                    <Image
-                        className="img-fluid"
-                        src="https://i.ebayimg.com/images/g/TRMAAOSwfEBkBnhl/s-l140.jpg"
-                        alt=""
-                    />
+                    <img className="img-fluid" src="/s-l140.jpg" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div>
-                    <Image
-                        className="img-fluid"
-                        src="https://i.ebayimg.com/images/g/TRMAAOSwfEBkBnhl/s-l140.jpg"
-                        alt=""
-                    />
+                    <img className="img-fluid" src="/s-l140.jpg" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div>
-                    <Image
-                        className="img-fluid"
-                        src="https://i.ebayimg.com/images/g/TRMAAOSwfEBkBnhl/s-l140.jpg"
-                        alt=""
-                    />
+                    <img className="img-fluid" src="/s-l140.jpg" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div>
-                    <Image
-                        className="img-fluid"
-                        src="https://i.ebayimg.com/images/g/TRMAAOSwfEBkBnhl/s-l140.jpg"
-                        alt=""
-                    />
+                    <img className="img-fluid" src="/s-l140.jpg" alt="" />
                 </div>
             </SwiperSlide>
             <SwiperSlide>
                 <div>
-                    <Image
-                        className="img-fluid"
-                        src="https://i.ebayimg.com/images/g/TRMAAOSwfEBkBnhl/s-l140.jpg"
-                        alt=""
-                    />
+                    <img className="img-fluid" src="/s-l140.jpg" alt="" />
                 </div>
             </SwiperSlide>
         </Swiper>

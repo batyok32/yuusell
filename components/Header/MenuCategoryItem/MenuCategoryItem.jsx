@@ -14,16 +14,7 @@ function MenuCategoryItem({ img, title }) {
                 }}
                 className="bg-main-50 d-flex justify-content-center align-items-center p-1 overflow-hidden"
             >
-                <Image
-                    className="img-fluid"
-                    src={`${
-                        img ? img : "https://pngimg.com/d/mercedes_PNG80135.png"
-                    }`}
-                    alt=""
-                    style={{
-                        width: "100px",
-                    }}
-                />
+                <img className="img-fluid" src={`${img}`} alt="" />
             </div>
             <div className="text-center mt-1">{title ? title : "Cars"}</div>
         </div>

@@ -9,8 +9,8 @@ function LoginPage() {
                 className="d-flex align-items-center justify-content-center"
             >
                 <div className="bg-white mt-3 p-3 shadow-sm rounded-1">
-                    <Image src="/logo2.jpg" height={40} />{" "}
-                    <Image
+                    <img src="/logo2.jpg" height={40} />{" "}
+                    <img
                         src="/logo3.jpg"
                         height={30}
                         style={{ marginLeft: "-8px" }}
@@ -19,7 +19,7 @@ function LoginPage() {
             </Link>
 
             <div className="row mx-0 mt-4 w-100 ">
-                <div className="col-4 mx-auto p-4 bg-white shadow-sm ">
+                <div className="col-11 col-lg-4 mx-auto px-3 py-4 p-md-4 bg-white shadow-sm ">
                     <div className="fw-bold text-center fs-5">
                         Reset password
                     </div>
