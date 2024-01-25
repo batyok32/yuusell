@@ -6,7 +6,7 @@ function CartItem() {
         <div className="row fs-14 align-items-center py-3">
             <div className="col-auto">
                 <input
-                    class="form-check-input"
+                    className="form-check-input customcheckbox"
                     type="checkbox"
                     value=""
                     id="flexCheckDefault"

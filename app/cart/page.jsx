@@ -12,23 +12,23 @@ import Link from "next/link";
 
 function Cart() {
     return (
-        <div class="container-xxl mt-md-3 px-sm-4 py-4">
-            <div class="d-flex justify-content-between align-items-center mb-3">
+        <div className="container-xxl mt-md-3 px-sm-4 py-4">
+            <div className="d-flex justify-content-between align-items-center mb-3">
                 <div className="fw-bold fs-5 ">Cart (2)</div>
             </div>
 
-            <div class="row align-items-start mx-0 ">
-                <div class="col-md-8 order-1 order-md-0 bg-white rounded-1">
+            <div className="row align-items-start mx-0 ">
+                <div className="col-md-8 order-1 order-md-0 bg-white rounded-1">
                     <div className="d-flex gap-2 fs-14 user-select-none pt-2 border-bottom">
-                        <div class="form-check ">
+                        <div className="form-check ">
                             <input
-                                class="form-check-input customcheckbox fs-6"
+                                className="form-check-input customcheckbox fs-6"
                                 type="checkbox"
                                 value=""
                                 id="flexCheckDefault"
                             />
                             <label
-                                class="form-check-label fw-medium fs-15 pt-1"
+                                className="form-check-label fw-medium fs-15 pt-1"
                                 role="button"
                                 for="flexCheckDefault"
                             >
@@ -50,7 +50,7 @@ function Cart() {
                     </div>
                 </div>
 
-                <div class="col-md-4 order-0 order-md-1 px-md-2  top-0 px-0 mb-2">
+                <div className="col-md-4 order-0 order-md-1 px-md-2  top-0 px-0 mb-2">
                     <div className="bg-white rounded-1 h-100 px-4 py-3 ">
                         <Link href="/checkout">
                             <button className="btn-main  btn w-100 fw-bold fs-14 py-2">

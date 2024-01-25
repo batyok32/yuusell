@@ -35,6 +35,9 @@
 		width: 95%;
 		border-radius: 10px;
 	}
+	.image-slider .swiper-button-prev,.image-slider .swiper-button-next {
+		display: none;
+	}
 
 }
 

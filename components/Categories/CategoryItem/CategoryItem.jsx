@@ -1,8 +1,12 @@
 import Image from "next/image";
 
-function CategoryItem({ img, title }) {
+function CategoryItem({ img, title, className }) {
     return (
-        <div className=" d-flex py-2 px-1  align-items-center flex-column">
+        <div
+            className={`d-flex py-2 px-1  align-items-center flex-column ${
+                className && className
+            } `}
+        >
             <div className="bg-slightgray rounded-1 d-flex justify-content-center align-items-center p-1 overflow-hidden">
                 <img className="img-fluid" src={img} alt="" />
             </div>

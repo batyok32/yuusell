@@ -252,7 +252,7 @@ function ProductDetail({ params }) {
                                 <div className="fs-14 d-flex align-items-center">
                                     Quantity:{" "}
                                     <span
-                                        class="input ms-1 px-2 me-2"
+                                        className="input ms-1 px-2 me-2"
                                         role="textbox"
                                         contenteditable="true"
                                     >
@@ -265,7 +265,7 @@ function ProductDetail({ params }) {
                                     </span>
                                     {/* <input
                                     type="number"
-                                    class="form-control fs-14 p-1 w-auto ms-2 shadow-none border autoresize-input"
+                                    className="form-control fs-14 p-1 w-auto ms-2 shadow-none border autoresize-input"
                                     min={1}
                                     aria-label="Recipient's username"
                                     aria-describedby="basic-addon2"
@@ -325,13 +325,13 @@ function ProductDetail({ params }) {
 
                     <div className="bg-white p-3 mt-5 mt-md-0">
                         <ul
-                            class="nav nav-tabs  mt-md-5"
+                            className="nav nav-tabs  mt-md-5"
                             id="myTab"
                             role="tablist"
                         >
-                            <li class="nav-item" role="presentation">
+                            <li className="nav-item" role="presentation">
                                 <button
-                                    class="nav-link active fs-14"
+                                    className="nav-link active fs-14"
                                     id="home-tab"
                                     data-bs-toggle="tab"
                                     data-bs-target="#home-tab-pane"
@@ -343,9 +343,9 @@ function ProductDetail({ params }) {
                                     About product
                                 </button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li className="nav-item" role="presentation">
                                 <button
-                                    class="nav-link fs-14 "
+                                    className="nav-link fs-14 "
                                     id="profile-tab"
                                     data-bs-toggle="tab"
                                     data-bs-target="#profile-tab-pane"
@@ -358,9 +358,9 @@ function ProductDetail({ params }) {
                                 </button>
                             </li>
                         </ul>
-                        <div class="tab-content" id="myTabContent">
+                        <div className="tab-content" id="myTabContent">
                             <div
-                                class="tab-pane fade show active"
+                                className="tab-pane fade show active"
                                 id="home-tab-pane"
                                 role="tabpanel"
                                 aria-labelledby="home-tab"
@@ -407,7 +407,7 @@ function ProductDetail({ params }) {
                                 </ul>
                             </div>
                             <div
-                                class="tab-pane fade"
+                                className="tab-pane fade"
                                 id="profile-tab-pane"
                                 role="tabpanel"
                                 aria-labelledby="profile-tab"
@@ -453,11 +453,11 @@ function ProductDetail({ params }) {
                                                     5 star
                                                 </div>
                                                 <div
-                                                    class="col progress ms-3 p-0"
+                                                    className="col progress ms-3 p-0"
                                                     style={{ height: 10 }}
                                                 >
                                                     <div
-                                                        class="progress-bar bg-main"
+                                                        className="progress-bar bg-main"
                                                         role="progressbar"
                                                         aria-label="Basic example"
                                                         style={{
@@ -478,11 +478,11 @@ function ProductDetail({ params }) {
                                                     4 star
                                                 </div>
                                                 <div
-                                                    class="col progress ms-3 p-0"
+                                                    className="col progress ms-3 p-0"
                                                     style={{ height: 10 }}
                                                 >
                                                     <div
-                                                        class="progress-bar bg-main"
+                                                        className="progress-bar bg-main"
                                                         role="progressbar"
                                                         aria-label="Basic example"
                                                         style={{
@@ -502,11 +502,11 @@ function ProductDetail({ params }) {
                                                     3 star
                                                 </div>
                                                 <div
-                                                    class="col progress ms-3 p-0"
+                                                    className="col progress ms-3 p-0"
                                                     style={{ height: 10 }}
                                                 >
                                                     <div
-                                                        class="progress-bar bg-main"
+                                                        className="progress-bar bg-main"
                                                         role="progressbar"
                                                         aria-label="Basic example"
                                                         style={{
@@ -526,11 +526,11 @@ function ProductDetail({ params }) {
                                                     2 star
                                                 </div>
                                                 <div
-                                                    class="col progress ms-3 p-0"
+                                                    className="col progress ms-3 p-0"
                                                     style={{ height: 10 }}
                                                 >
                                                     <div
-                                                        class="progress-bar bg-main"
+                                                        className="progress-bar bg-main"
                                                         role="progressbar"
                                                         aria-label="Basic example"
                                                         style={{
@@ -550,11 +550,11 @@ function ProductDetail({ params }) {
                                                     1 star
                                                 </div>
                                                 <div
-                                                    class="col progress ms-3 p-0"
+                                                    className="col progress ms-3 p-0"
                                                     style={{ height: 10 }}
                                                 >
                                                     <div
-                                                        class="progress-bar bg-main"
+                                                        className="progress-bar bg-main"
                                                         role="progressbar"
                                                         aria-label="Basic example"
                                                         style={{
@@ -577,7 +577,7 @@ function ProductDetail({ params }) {
                                                 Sort by:{" "}
                                                 <div>
                                                     <select
-                                                        class="form-select fs-14 ms-2 shadow-none border-0"
+                                                        className="form-select fs-14 ms-2 shadow-none border-0"
                                                         aria-label="Default select example"
                                                     >
                                                         <option value="1">

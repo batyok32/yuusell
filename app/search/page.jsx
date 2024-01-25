@@ -17,7 +17,7 @@ function Search() {
                     </div>
                     <div>
                         <select
-                            class="form-select fs-13"
+                            className="form-select fs-13"
                             aria-label="Default select example"
                         >
                             <option selected>Sort by: Newest</option>
@@ -50,15 +50,15 @@ function Search() {
                             <div className="fw-bold">Delivery time</div>
                             <ul className="list-unstyled mt-2 ">
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="customradio form-check-input "
+                                            className="customradio form-check-input "
                                             type="radio"
                                             name="delivery"
                                             id="delivery1"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery1"
                                         >
                                             Don&apos;t matter
@@ -66,15 +66,15 @@ function Search() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="form-check-input customradio"
+                                            className="form-check-input customradio"
                                             type="radio"
                                             name="delivery"
                                             id="delivery2"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery2"
                                         >
                                             up 1 day
@@ -82,15 +82,15 @@ function Search() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="form-check-input customradio"
+                                            className="form-check-input customradio"
                                             type="radio"
                                             name="delivery"
                                             id="delivery3"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery3"
                                         >
                                             up 4 days
@@ -98,15 +98,15 @@ function Search() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="form-check-input customradio"
+                                            className="form-check-input customradio"
                                             type="radio"
                                             name="delivery"
                                             id="delivery4"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery4"
                                         >
                                             up 7 days
@@ -114,15 +114,15 @@ function Search() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="form-check-input customradio"
+                                            className="form-check-input customradio"
                                             type="radio"
                                             name="delivery"
                                             id="delivery5"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery5"
                                         >
                                             up 31 days
@@ -141,7 +141,7 @@ function Search() {
                                     </span>
                                     <input
                                         type="text"
-                                        class="form-control border-0 shadow-none p-0 fs-14 rounded-0"
+                                        className="form-control border-0 shadow-none p-0 fs-14 rounded-0"
                                         id="exampleInputEmail1"
                                         aria-describedby="emailHelp"
                                     />
@@ -152,7 +152,7 @@ function Search() {
                                     </span>
                                     <input
                                         type="text"
-                                        class="form-control border-0 shadow-none p-0 fs-14 rounded-0 fs-13"
+                                        className="form-control border-0 shadow-none p-0 fs-14 rounded-0 fs-13"
                                         id="exampleInputEmail1"
                                         aria-describedby="emailHelp"
                                     />

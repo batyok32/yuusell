@@ -8,6 +8,7 @@ import MobileHeaderSearch from "../HeaderSearch/MobileHeaderSearch";
 import HeaderAddressSlider from "../HeaderAddressSlider/HeaderAddressSlider";
 import { SwiperSlide } from "swiper/react";
 import Link from "next/link";
+import MobileOffcanvas from "../Offcanvas/MobileOffcanvas";
 
 function MobileHeader() {
     return (
@@ -15,12 +16,19 @@ function MobileHeader() {
             <div className="container-xxl fs-13 py-1  ">
                 <div className="d-flex align-items-center">
                     <MobileHeaderSearch />
-                    <Link href="/help">
+                    <Link href="/help" className="mx-1">
                         <IconMessageCircleQuestion className="ms-1" />
                     </Link>
-                    <Link href="/category">
-                        <IconMenuDeep className="ms-1" />
-                    </Link>
+                    <MobileOffcanvas>
+                        <div
+                            role="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight"
+                        >
+                            <IconMenuDeep className="ms-1" />
+                        </div>
+                    </MobileOffcanvas>
                 </div>
             </div>
             <div className="container-xxl fs-13 border-top">
@@ -49,7 +57,7 @@ function MobileHeader() {
                                 style={{ width: 350 }}
                             >
                                 <li>
-                                    <h6 class="dropdown-header fs-13 fw-bold text-start pt-0 pb-1 border-bottom">
+                                    <h6 className="dropdown-header fs-13 fw-bold text-start pt-0 pb-1 border-bottom">
                                         Choose your location
                                     </h6>
                                 </li>

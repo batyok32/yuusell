@@ -9,17 +9,17 @@ import MobileBottom from "@/components/MobileBottom/MobileBottom";
 
 export const LayoutProvider = ({ children }) => {
     const pathname = usePathname();
-    console.log("PATHNAME", pathname);
+    // console.log("PATHNAME", pathname);
     return (
         <>
-            {!["/auth", "/checkout"].some((prefix) =>
+            {!["/auth", "/checkout", "/seller", "/business"].some((prefix) =>
                 pathname.startsWith(prefix)
             ) && (
                 <div className="d-none d-sm-block">
                     <Header />
                 </div>
             )}
-            {!["/auth", "/checkout"].some((prefix) =>
+            {!["/auth", "/checkout", "/seller", "/business"].some((prefix) =>
                 pathname.startsWith(prefix)
             ) && (
                 <div className="d-sm-none">
@@ -28,10 +28,14 @@ export const LayoutProvider = ({ children }) => {
             )}
 
             {children}
-            <div className="d-sm-none mt-5 pt-5">
-                <MobileBottom />
-            </div>
-            {!["/auth", "/checkout"].some((prefix) =>
+            {!["/seller", "/business"].some((prefix) =>
+                pathname.startsWith(prefix)
+            ) && (
+                <div className="d-sm-none mt-5 pt-5">
+                    <MobileBottom />
+                </div>
+            )}
+            {!["/auth", "/checkout", "/seller", "/business"].some((prefix) =>
                 pathname.startsWith(prefix)
             ) && (
                 <div className="d-none d-sm-block">

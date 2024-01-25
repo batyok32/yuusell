@@ -8,27 +8,21 @@ function CategoryPage() {
                     <div className="fw-bold">Categories</div>
                     <div className="row row-cols-2 row-cols-md-4 row-cols-lg-6 align-items-stretch mt-3">
                         <CategoryItem
-                            img="https://ir.ozone.ru/s3/cms/47/t4c/wc250/elektronika.png"
+                            img="/products/1.WEBP"
                             title="Electronics"
                         />
                         <CategoryItem
-                            img="https://ir.ozone.ru/s3/cms/7e/te1/wc250/dom_i_sad.png"
+                            img="/products/2.WEBP"
                             title="Home and garden"
                         />
                         <CategoryItem
-                            img="https://ir.ozone.ru/s3/cms/8c/t8e/wc250/detskiya_tovary.png"
+                            img="/products/3.WEBP"
                             title="Baby products"
                         />
+                        <CategoryItem img="/products/4.WEBP" title="Clothes" />
+                        <CategoryItem img="/products/5.WEBP" title="Pharmacy" />
                         <CategoryItem
-                            img="https://ir.ozone.ru/s3/cms/fc/t49/wc250/odejda.png"
-                            title="Clothes"
-                        />
-                        <CategoryItem
-                            img="https://ir.ozone.ru/s3/cms/b8/ta5/wc250/apteka.png"
-                            title="Pharmacy"
-                        />
-                        <CategoryItem
-                            img="https://ir.ozone.ru/s3/cms/15/tce/wc250/bytovaya_tehnika.png"
+                            img="/products/6.WEBP"
                             title="Baby products"
                         />
                     </div>

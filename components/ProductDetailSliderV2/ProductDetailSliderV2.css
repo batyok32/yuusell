@@ -27,3 +27,10 @@
 	background-color: #fff;
     /* color: #CB11AB; */
 }
+@media (max-width: 480px) {
+
+	.productdetailslider2 .swiper-button-prev, .productdetailslider2  .swiper-button-next {
+		display: none;
+	}
+
+}

@@ -6,7 +6,7 @@ function Footer() {
             <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 cd  mx-0 fs-14 text-lightgray mt-5">
                 <div className="px-sm-5 pt-0 py-2">
                     <img
-                        src="https://ir.ozone.ru/s3/cms/28/t9c/qr-code_1.png"
+                        src="/products/qr-code-1.png"
                         alt=""
                         className="img-fluid"
                     />
@@ -78,7 +78,7 @@ function Footer() {
             <div className="w-50 mx-auto">
                 <div className="d-flex justify-content-center align-items-center mb-2 flex-wrap gap-2 ">
                     <select
-                        class="form-select fs-14 w-auto mx-2"
+                        className="form-select fs-14 w-auto mx-2"
                         aria-label="Default select example"
                     >
                         <option value="1">English - EN</option>
@@ -87,7 +87,7 @@ function Footer() {
                         <option value="2">Turkmen - TM</option>
                     </select>
                     <select
-                        class="form-select fs-14 w-auto mx-2"
+                        className="form-select fs-14 w-auto mx-2"
                         aria-label="Default select example"
                     >
                         <option value="1">United States</option>

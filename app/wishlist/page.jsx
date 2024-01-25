@@ -41,15 +41,15 @@ function Wishlist() {
                             </div>
                             <ul className="list-unstyled  ">
                                 <li>
-                                    <div class="form-check custom-formcheck pb-0">
+                                    <div className="form-check custom-formcheck pb-0">
                                         <input
-                                            class="customradio form-check-input "
+                                            className="customradio form-check-input "
                                             type="radio"
                                             name="delivery"
                                             id="delivery1"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery1"
                                         >
                                             Don&apos;t matter
@@ -57,15 +57,15 @@ function Wishlist() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="form-check-input customradio"
+                                            className="form-check-input customradio"
                                             type="radio"
                                             name="delivery"
                                             id="delivery2"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery2"
                                         >
                                             Available
@@ -73,15 +73,15 @@ function Wishlist() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="form-check custom-formcheck">
+                                    <div className="form-check custom-formcheck">
                                         <input
-                                            class="form-check-input customradio"
+                                            className="form-check-input customradio"
                                             type="radio"
                                             name="delivery"
                                             id="delivery3"
                                         />
                                         <label
-                                            class="form-check-label"
+                                            className="form-check-label"
                                             for="delivery3"
                                         >
                                             Not available
@@ -98,7 +98,7 @@ function Wishlist() {
                         <div className="fw-bold">Products and List</div>
                         <div>
                             <select
-                                class="form-select fs-13 mt-1 mt-md-0"
+                                className="form-select fs-13 mt-1 mt-md-0"
                                 aria-label="Default select example"
                             >
                                 <option selected>Sort by: Newest</option>

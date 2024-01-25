@@ -3,6 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import "./globals.css";
 import BootstrapClient from "@/components/BootstrapClient";
 import { LayoutProvider } from "./layout_provider";
+import ReduxProvider from "@/redux/provider";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { AuthValidateLayout } from "./authValidateLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +21,15 @@ export default function RootLayout({ children }) {
             <body className={inter.className}>
                 <BootstrapClient />
 
-                {/* <Header /> */}
-                <LayoutProvider>
-                    <main>{children}</main>
-                </LayoutProvider>
-                {/* <Footer /> */}
+                <ReduxProvider>
+                    <AuthValidateLayout>
+                        <LayoutProvider>
+                            <ToastContainer />
+
+                            <main>{children}</main>
+                        </LayoutProvider>
+                    </AuthValidateLayout>
+                </ReduxProvider>
             </body>
         </html>
     );

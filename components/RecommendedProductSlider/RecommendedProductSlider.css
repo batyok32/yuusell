@@ -27,3 +27,10 @@
 	background-color: #fff;
     /* color: #CB11AB; */
 }
+@media (max-width: 480px) {
+
+	.recommendedProductSlider .swiper-button-prev, .recommendedProductSlider .swiper-button-next  {
+		display: none;
+	}
+
+}

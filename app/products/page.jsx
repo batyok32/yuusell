@@ -5,7 +5,7 @@ function Products() {
                 <div>48 of 293 results</div>
                 <div>
                     <select
-                        class="form-select fs-14"
+                        className="form-select fs-14"
                         aria-label="Default select example"
                     >
                         <option selected>Sort by: Newest</option>

@@ -10,7 +10,7 @@ function MobileHeaderSearch() {
         <div className="input-group flex-grow-1 align-items-center bg-slightgray my-1  rounded-2 py-0">
             {/* <div className="bg-gray align-self-stretch d-flex justify-content-center">
                 <select
-                    class="form-select btn  border-0 rounded-0 me-0 fs-13 noarrow  m-0 truncate-overflow-1 px-1"
+                    className="form-select btn  border-0 rounded-0 me-0 fs-13 noarrow  m-0 truncate-overflow-1 px-1"
                     style={{ maxWidth: "60px" }}
                     aria-label="Default select example"
                 >

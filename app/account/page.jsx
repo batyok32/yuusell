@@ -1,107 +1,176 @@
+"use client";
+import { useAppSelector } from "@/redux/hooks";
 import {
     IconBoxSeam,
     IconChevronRight,
+    IconHeart,
     IconHeartFilled,
+    IconStar,
     IconStarFilled,
 } from "@tabler/icons-react";
 import Link from "next/link";
 
 function AccountPage() {
+    const { user } = useAppSelector((state) => state.auth);
+
     return (
-        <div className="container-xxl">
-            <div className="row mx-0">
-                <div className="order-1 order-md-0 col-lg-3 ">
-                    <div className="bg-white p-3 rounded-1 fs-14 mt-3">
-                        <div className="mb-3">
-                            <h6 className="fw-bold mb-2">Batyr G</h6>
-                            <Link href="#" className="main-link">
-                                Edit profile
-                            </Link>
+        <>
+            <div className="  rounded-1 fs-14 mt-3">
+                <div className="mb-3 fs-5 text-end fw-medium">
+                    hello,{" "}
+                    <span className="fw-bold  text-main">
+                        {user?.first_name}
+                    </span>
+                </div>
+
+                <div className="row align-items-center">
+                    <div className="col-6 pb-2 col-md-4 text-secondary  px-2">
+                        <div className="bg-white rounded-1 p-2 d-flex justify-content-between align-items-center">
+                            <div>
+                                <div className="text-dark fw-bold fs-15">
+                                    In wishlist
+                                </div>
+                                <div className="fs-12">1 product</div>
+                            </div>
+                            <div>
+                                <IconHeart size={24} />
+                            </div>
                         </div>
-                        <div>
-                            <ul className="list-unstyled">
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Orders</span>{" "}
-                                    <IconChevronRight size={18} />
-                                </li>
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Returns</span>{" "}
-                                    <IconChevronRight size={18} />
-                                </li>
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Bought products </span>
-                                    <IconChevronRight size={18} />
-                                </li>
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Reviews </span>
-                                    <IconChevronRight size={18} />
-                                </li>
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Settings </span>
-                                    <IconChevronRight size={18} />
-                                </li>
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Currency </span>
-                                    <IconChevronRight size={18} />
-                                </li>
-                                <li className="py-2 border-bottom d-flex justify-content-between align-items-center">
-                                    <span>Help </span>
-                                    <IconChevronRight size={18} />
-                                </li>
-                            </ul>
+                    </div>
+                    <div className="col-6 pb-2 col-md-4 text-secondary px-2">
+                        <div className="bg-white  rounded-1 p-2 d-flex justify-content-between align-items-center">
+                            <div>
+                                <div className="text-dark fw-bold fs-15">
+                                    Orders
+                                </div>
+                                <div className="fs-12">0 orders</div>
+                            </div>
+                            <div>
+                                <IconBoxSeam size={24} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-6 pb-2 col-md-4 text-secondary px-2">
+                        <div className="bg-white rounded-1 p-2 d-flex justify-content-between align-items-center">
+                            <div>
+                                <div className="text-dark fw-bold fs-15">
+                                    Reviews
+                                </div>
+                                <div className="fs-12">0 reviews</div>
+                            </div>
+                            <div>
+                                <IconStar size={24} />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="order-0 order-md-1 col-lg-9">
-                    <div className="  rounded-1 fs-14 mt-3">
-                        <div className="row align-items-center">
-                            {/* Wishlist */}
-                            {/* Order numbers */}
-                            {/* Reviews */}
-                            <div className="col-6 pb-2 col-md-4 text-secondary  px-2">
-                                <div className="bg-white shadow-sm rounded-1 p-2 d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <div className="text-dark fw-bold fs-15">
-                                            In wishlist
-                                        </div>
-                                        <div className="fs-12">1 product</div>
-                                    </div>
-                                    <div>
-                                        <IconHeartFilled size={24} />
-                                    </div>
-                                </div>
+
+                <div className="bg-white p-3 mt-4">
+                    <div className="fw-bold  fs-6 mb-3">Your last orders</div>
+                    <div className="row row-cols-2 row-gap-2 row-cols-md-3 row-cols-lg-4 ">
+                        <div className="px-1">
+                            <div
+                                role="button"
+                                className="border rounded-small p-3 text-center"
+                            >
+                                <div>Delivered October 6</div>
+                                <div className="my-1 fw-bold ">$500.00</div>
+                                <div className="text-muted">7 items</div>
                             </div>
-                            <div className="col-6 pb-2 col-md-4 text-secondary px-2">
-                                <div className="bg-white shadow-sm rounded-1 p-2 d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <div className="text-dark fw-bold fs-15">
-                                            Orders
-                                        </div>
-                                        <div className="fs-12">0 orders</div>
-                                    </div>
-                                    <div>
-                                        <IconBoxSeam size={24} />
-                                    </div>
-                                </div>
+                        </div>
+                        <div className="px-1">
+                            <div
+                                role="button"
+                                className="border rounded-small p-3 text-center"
+                            >
+                                <div>Delivered October 6</div>
+                                <div className="my-1 fw-bold ">$500.00</div>
+                                <div className="text-muted">7 items</div>
                             </div>
-                            <div className="col-6 pb-2 col-md-4 text-secondary px-2">
-                                <div className="bg-white shadow-sm rounded-1 p-2 d-flex justify-content-between align-items-center">
-                                    <div>
-                                        <div className="text-dark fw-bold fs-15">
-                                            Reviews
-                                        </div>
-                                        <div className="fs-12">0 reviews</div>
-                                    </div>
-                                    <div>
-                                        <IconStarFilled size={24} />
-                                    </div>
+                        </div>
+                        <div className="px-1">
+                            <div
+                                role="button"
+                                className="border rounded-small p-3 text-center"
+                            >
+                                <div>Delivered October 6</div>
+                                <div className="my-1 fw-bold ">$500.00</div>
+                                <div className="text-muted">7 items</div>
+                            </div>
+                        </div>
+                        <div className="px-1">
+                            <div
+                                role="button"
+                                className="border rounded-small  text-center"
+                                style={{ padding: 15 }}
+                            >
+                                <div>
+                                    Can&apos;t find what you&apos;re looking for
                                 </div>
+                                <Link
+                                    href="#"
+                                    className="btn btn-main fs-12 w-100 mt-1  fw-bold rounded-small"
+                                >
+                                    All orders
+                                </Link>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="bg-white p-3 mt-4">
+                    <div className="fw-bold  fs-6 mb-3">Buy again</div>
+                    <div className="row row-cols-2 row-gap-2 row-cols-md-4 row-cols-lg-5 ">
+                        <div className="px-1">
+                            <div className="border p-1 py-2 rounded-small">
+                                <img
+                                    src="https://images-na.ssl-images-amazon.com/images/I/417OJaY3DAL._AC_UL450_SR450,320_.jpg"
+                                    alt=""
+                                    className="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div className="px-1">
+                            <div className="border p-1 py-2 rounded-small">
+                                <img
+                                    src="https://images-na.ssl-images-amazon.com/images/I/417OJaY3DAL._AC_UL450_SR450,320_.jpg"
+                                    alt=""
+                                    className="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div className="px-1">
+                            <div className="border p-1 py-2 rounded-small">
+                                <img
+                                    src="https://images-na.ssl-images-amazon.com/images/I/417OJaY3DAL._AC_UL450_SR450,320_.jpg"
+                                    alt=""
+                                    className="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div className="px-1">
+                            <div className="border p-1 py-2 rounded-small">
+                                <img
+                                    src="https://images-na.ssl-images-amazon.com/images/I/417OJaY3DAL._AC_UL450_SR450,320_.jpg"
+                                    alt=""
+                                    className="img-fluid"
+                                />
+                            </div>
+                        </div>
+                        <div className="px-1">
+                            <div className="border p-1 py-2 rounded-small">
+                                <img
+                                    src="https://images-na.ssl-images-amazon.com/images/I/417OJaY3DAL._AC_UL450_SR450,320_.jpg"
+                                    alt=""
+                                    className="img-fluid"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    {/* <RecommendedProductSlider /> */}
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

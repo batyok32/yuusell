@@ -52,15 +52,15 @@ function Checkout() {
                         </div>
                         <ul className="list-unstyled">
                             <li className="px-3 pt-3 border-bottom pb-2">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="flexRadioDefault"
                                         id="flexRadioDefault1"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100"
+                                        className="form-check-label ms-2 w-100"
                                         for="flexRadioDefault1"
                                     >
                                         <span className="VISA medium"></span>
@@ -71,15 +71,15 @@ function Checkout() {
                                 </div>
                             </li>
                             <li className="px-3 pt-3 border-bottom pb-2">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="flexRadioDefault"
                                         id="flexRadioDefault2"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100"
+                                        className="form-check-label ms-2 w-100"
                                         for="flexRadioDefault2"
                                     >
                                         <span className="VISA medium"></span>
@@ -90,15 +90,15 @@ function Checkout() {
                                 </div>
                             </li>
                             <li className="px-3 pt-3 border-bottom pb-2">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="flexRadioDefault"
                                         id="flexRadioDefault3"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100"
+                                        className="form-check-label ms-2 w-100"
                                         for="flexRadioDefault3"
                                     >
                                         <span className="VISA medium"></span>
@@ -109,15 +109,15 @@ function Checkout() {
                                 </div>
                             </li>
                             <li className="px-3 pt-3 border-bottom pb-2">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="flexRadioDefault"
                                         id="flexRadioDefault4"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100"
+                                        className="form-check-label ms-2 w-100"
                                         for="flexRadioDefault4"
                                     >
                                         <div className=" fw-medium">
@@ -131,15 +131,15 @@ function Checkout() {
                                 </div>
                             </li>
                             <li className="px-3 pt-3  ">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="flexRadioDefault"
                                         id="flexRadioDefault5"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100"
+                                        className="form-check-label ms-2 w-100"
                                         for="flexRadioDefault5"
                                     >
                                         <span className="PAYPAL medium"></span>
@@ -158,15 +158,15 @@ function Checkout() {
                         </div>
                         <ul className="list-unstyled">
                             <li className="px-3 pt-3 border-bottom pb-2">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="shipRadio"
                                         id="shipRadio1"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100 fs-14 fw-medium"
+                                        className="form-check-label ms-2 w-100 fs-14 fw-medium"
                                         for="shipRadio1"
                                     >
                                         <div>Batyr Gurbangulyyev</div>
@@ -178,15 +178,15 @@ function Checkout() {
                                 </div>
                             </li>
                             <li className="px-3 pt-2">
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input
-                                        class="form-check-input"
+                                        className="form-check-input"
                                         type="radio"
                                         name="shipRadio"
                                         id="shipRadio2"
                                     />
                                     <label
-                                        class="form-check-label ms-2 w-100 fs-14 fw-medium"
+                                        className="form-check-label ms-2 w-100 fs-14 fw-medium"
                                         for="shipRadio2"
                                     >
                                         <div>Add a new address</div>

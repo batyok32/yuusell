@@ -126,11 +126,18 @@ a {
 .btn-main {
   background-color: #FF6A00;
   color: #fff;
+
 }
 
 .btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.show {
   background-color: #d45901 !important;
   color: #fff !important;
+}
+
+.btn-main:disabled {
+  border-color: #FF6A00 !important;
+  background-color: transparent;
+  color: #FF6A00;
 }
 
 .btn-white {
@@ -180,6 +187,11 @@ a {
 
 .bg-main {
   background-color: #FF6A00;
+}
+
+.bg-blur-main {
+  background-color: #fadbb3; /* Lighten the color by adjusting opacity */
+  /* filter: blur(5px); Apply blur effect */
 }
 
 
@@ -244,6 +256,9 @@ a {
   background-color: rgba(255, 106, 0, 0.5);
 }
 
+.bg-lightorange {
+  background-color: #f8e2cc;
+}
 
 
 .customradio:checked[type='radio'], .customcheckbox:checked[type='checkbox'] {
@@ -303,4 +318,35 @@ input.placeholder-gray::placeholder {
   .bg-white-md {
     background: #fff;
   }
+}
+
+input.placeholder-sm::placeholder {
+  font-size: 14px;
+}
+
+.rounded-small {
+  border-radius: 3px !important;
+}
+
+.btn-active {
+  background-color: #FF6A00 !important;
+  color: white !important;
+}
+
+.border-main {
+  border-color: #FF6A00 !important;
+}
+
+.customphoneinput input {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.custom-list > * {
+  cursor: pointer;
+}
+
+.custom-list > *:hover {
+  color: #FF6A00;
 }

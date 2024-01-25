@@ -6,7 +6,7 @@ function MobileCartItem() {
         <div className="row flex-wrap align-items-center py-2">
             <div className="col-auto">
                 <input
-                    class="form-check-input customcheckbox"
+                    className="form-check-input customcheckbox"
                     type="checkbox"
                     value=""
                     id="flexCheckDefault"
